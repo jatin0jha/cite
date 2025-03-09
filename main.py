@@ -65,7 +65,7 @@ def create_quote_image(user_avatar_url, message_content, user_display_name):
     text_x = avatar_width + 40
 
     # Font loading
-    text_font_path = "Roboto-VariableFont_wdth,wght.ttf"  # Path to regular text font
+    text_font_path = "Kalam-Regular.ttf"  # Path to regular text font
     emoji_font_path = "NotoEmoji-VariableFont_wght.ttf"  # Path to emoji font
     try:
         font_quote = ImageFont.truetype(text_font_path, 40)
